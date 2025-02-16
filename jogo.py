@@ -108,7 +108,7 @@ while True:
 
         morreu = True
         while morreu:
-            tela.fill(255,255,255)
+            tela.fill(255, 255, 255)
             for event in pygame.event.get():
                 if event.type == QUIT:
                     pygame.quit()
